@@ -1,0 +1,137 @@
+/* FONTS LINK  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* DEFAULT CSS  */
+body{
+    font-family: "Inter", system-ui;
+}
+.btn-common{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", system-ui;
+    border-radius: 4px;
+}
+.c-padding{
+    padding: 20px 0;
+}
+/* HEADER CSS START  */
+header{
+    background-color: #F5F7FA;
+    padding: 12px 0;
+}
+.logo{
+    width: 154px;
+}
+.menu ul li a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #18191F !important;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    font-weight: 500;
+}
+.navbar-nav{
+    gap: 34px;
+}
+.btn-l{
+    color: #4CAF4F;
+    padding: 10px 20px;
+    margin-right: 14px;
+}
+.btn-l:hover{
+    color: #4CAF4F;
+}
+.btn-s{
+    background-color: #4CAF4F;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.btn-s:hover{
+    background-color: #4CAF4F;
+    color: #ffffff;
+}
+
+/* HEADER CSS END */
+
+/* HERO CSS START  */
+.hero{
+    background-color: #F5F7FA;
+    padding: 96px 0;
+}
+/* SWIPER START */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+.swiper-pagination-bullet-active {
+    background: #4CAF4F !important;
+}
+.swiper-pagination-bullet {
+    background: #4CAF4F !important;
+}
+/* SWIPER END  */
+.hero-content{
+    text-align: left;
+}
+.hero-heading{
+    font-size: 64px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+.hero-heading span{
+    color: #4CAF4F;
+}
+.hero-tag{
+    font-size: 16px;
+    font-weight: normal;
+    color: #717171;
+    margin: 16px 0 32px 0;
+}
+/* HERO CSS END */
+
+/* SECTION CLIENT CSS START  */
+.sec-clients{
+    padding: 40px 0 20px;
+    background-color: #fff;
+}
+.common-heading{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.3em;
+    color: #18191F;
+}
+.common-text{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.7em;
+    color: #18191F;
+}
+.client-logos{
+    padding: 25px 0;
+}
+/* SECTION CLIENT CSS END */
+
+/* COMMUNITY SECTION START  */
+.community{
+    background-color: #fff;
+}
+.community-heading{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+/* COMMUNITY SECTION END */
